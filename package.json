@@ -1,0 +1,30 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerar perguntas anonimas de usuários direcionadas ao dono da página. Projeto desenvolvido na NLW together (Trilha discover)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaryssaDias09/NLW4-Roquet.Q.git"
+  },
+  "keywords": [],
+  "author": "Laryssa Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaryssaDias09/NLW4-Roquet.Q/issues"
+  },
+  "homepage": "https://github.com/LaryssaDias09/NLW4-Roquet.Q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
